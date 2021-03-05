@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 body {
     background-image: url('/images/bg-pattern-top.svg');
     background-image: url('/images/bg-pattern-bottom.svg');
@@ -25,20 +22,17 @@ div .card {
     height: 200px;
     width: 300px;
 }
-
 .card-content {
     background-color: white;
     text-align: center;
     border-radius: 10px;
 }
-
 .card-header {
     background-image: url('/images/bg-pattern-card.svg');
     text-align: center;
     position: relative;
     height: 100px;
 }
-
 img {
     position: absolute;
     top: 50%;
@@ -53,36 +47,49 @@ img {
 h3 {
     display: flex;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 40px;
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-bottom: 0;
 }
 
+.number-26 {
+    color: hsl(0, 0%, 59%);
+    padding-left: 5px;
+}
 span {
     color: hsl(0, 0%, 59%);
     font-weight: 500;
-    font-size: 1.1rem;
-    padding-bottom: 10px;
+    font-size: 1rem;
+    padding: 0 0 10px 0;
 }
-
-
 
 .card-footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 p {
    color: #000;
    display: flex;
    justify-content: space-around;
-   font-size: 1.2rem;
+   font-size: 1rem;
    font-weight: 900;
+   margin: 10px 0 0 0;
+   padding: 0;
 }
 
 h6 {
     font-size: 0.7rem;
     display: block;
     color:  hsl(0, 0%, 59%);
+    margin: 4px 0 15px 0;
 }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
